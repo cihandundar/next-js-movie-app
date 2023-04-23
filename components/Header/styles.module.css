@@ -1,0 +1,30 @@
+.header {
+  padding: 30px 0;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navLogo h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navList {
+  display: flex;
+}
+
+.navLink:not(:last-child) {
+  margin-right: 30px;
+}
+
+@media (max-width: 425px) {
+  .headerContainer {
+    padding: 20px;
+  }
+}
