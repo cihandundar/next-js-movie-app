@@ -13,7 +13,9 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      <main>Home</main>
+      <main>
+        <h1>HOME</h1>
+      </main>
     </>
   );
 }
