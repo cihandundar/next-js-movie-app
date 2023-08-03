@@ -11,6 +11,22 @@
   margin-bottom: 30px;
 }
 
+.inputWrapper {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.input {
+  height: 35px;
+  width: 200px;
+  padding-left: 10px;
+}
+
+.btn {
+  height: 35px;
+  width: 100px;
+}
+
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
