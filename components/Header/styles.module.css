@@ -32,5 +32,6 @@
 @media (max-width: 425px) {
   .headerContainer {
     padding: 20px;
+    flex-direction: column;
   }
 }

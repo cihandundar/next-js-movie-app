@@ -20,11 +20,13 @@
   height: 35px;
   width: 200px;
   padding-left: 10px;
+  border: 1px solid #000;
 }
 
 .btn {
   height: 35px;
   width: 100px;
+  border: 1px solid #000;
 }
 
 .cardContainer {
@@ -38,6 +40,8 @@
   margin: 10px;
   position: relative;
   transition: 0.3s ease;
+  background-color: black;
+  border-radius: 10px;
 }
 
 .card:hover {
